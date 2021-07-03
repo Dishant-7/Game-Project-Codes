@@ -1,0 +1,9 @@
+import random
+max=6
+min=1
+roll_it='yes'
+while roll_it.lower()=='yes':
+    print('rolling the dices')
+    print('the values are')
+    print(random.randint(min, max))
+    roll_it=input('roll dice again?')
